@@ -24,7 +24,7 @@ MONGO_URI = os.getenv("MONGO_DB", "g17hr.mongodb.net/?retryWrites=true&w=majorit
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "6938716674").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", None)) # optional with -100
+LOG_GROUP = int(os.getenv("LOG_GROUP", -1002378787189)) # optional with -100
 FORCE_SUB = int(os.getenv("FORCE_SUB", None)) # optional with -100
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
